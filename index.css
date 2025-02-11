@@ -67,7 +67,7 @@
   border-radius: 40px;
 }
 
-.index .text-wrapper-2 {
+.index .resumebutton {
   position: absolute;
   width: 112px;
   top: 6px;
@@ -91,7 +91,7 @@
   border-radius: 40px;
 }
 
-.index .text-wrapper-3 {
+.index .projectsbutton {
   position: absolute;
   width: 111px;
   top: 8px;
@@ -115,7 +115,7 @@
   border-radius: 40px;
 }
 
-.index .text-wrapper-4 {
+.index .contactbutton {
   position: absolute;
   width: 125px;
   top: 8px;
