@@ -1,0 +1,13 @@
+/* Reset some default styles to ensure consistent rendering across browsers */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #bbb1b1;
+    color: #333;
+}
+
+img {
+    top: 0;           /* Position it at the top */
+    right: 0;         /* Position it at the right */
+    width: 100px;     /* Set a width for the image */
+    height: auto;     /* Keep the aspect ratio of the image */
+}
