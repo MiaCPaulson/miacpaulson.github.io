@@ -1,14 +1,157 @@
-/* Reset some default styles to ensure consistent rendering across browsers */
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #f0e9e9;
-    color: #333;
+.index {
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-img {
-    position: absolute;
-    top: 0;           /* Position it at the top */
-    right: 0;         /* Position it at the right */
-    width: 25%;     /* Set a width for the image */
-    height: auto;     /* Keep the aspect ratio of the image */
+.index .div {
+  background-color: #e4e4e4;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.index .overlap {
+  position: absolute;
+  width: 480px;
+  height: 130px;
+  top: 18px;
+  left: 96px;
+}
+
+.index .text-wrapper {
+  position: absolute;
+  width: 417px;
+  top: 0;
+  left: 0;
+  font-family: var(--name-font-family);
+  font-weight: var(--name-font-weight);
+  color: #000000;
+  font-size: var(--name-font-size);
+  letter-spacing: var(--name-letter-spacing);
+  line-height: var(--name-line-height);
+  font-style: var(--name-font-style);
+}
+
+.index .student-web {
+  position: absolute;
+  top: 79px;
+  left: 0;
+  font-family: var(--button-font-family);
+  font-weight: var(--button-font-weight);
+  color: #000000;
+  font-size: var(--button-font-size);
+  letter-spacing: var(--button-letter-spacing);
+  line-height: var(--button-line-height);
+  font-style: var(--button-font-style);
+}
+
+.index .group {
+  position: absolute;
+  width: 184px;
+  height: 256px;
+  top: 308px;
+  left: 336px;
+}
+
+.index .overlap-group {
+  position: absolute;
+  width: 178px;
+  height: 63px;
+  top: 0;
+  left: 0;
+  background-color: #90b4e9;
+  border-radius: 40px;
+}
+
+.index .text-wrapper-2 {
+  position: absolute;
+  width: 112px;
+  top: 6px;
+  left: 33px;
+  font-family: var(--button-font-family);
+  font-weight: var(--button-font-weight);
+  color: #000000;
+  font-size: var(--button-font-size);
+  letter-spacing: var(--button-letter-spacing);
+  line-height: var(--button-line-height);
+  font-style: var(--button-font-style);
+}
+
+.index .div-wrapper {
+  position: absolute;
+  width: 178px;
+  height: 63px;
+  top: 193px;
+  left: 0;
+  background-color: #8edfa3;
+  border-radius: 40px;
+}
+
+.index .text-wrapper-3 {
+  position: absolute;
+  width: 111px;
+  top: 8px;
+  left: 33px;
+  font-family: var(--button-font-family);
+  font-weight: var(--button-font-weight);
+  color: #000000;
+  font-size: var(--button-font-size);
+  letter-spacing: var(--button-letter-spacing);
+  line-height: var(--button-line-height);
+  font-style: var(--button-font-style);
+}
+
+.index .overlap-2 {
+  position: absolute;
+  width: 178px;
+  height: 63px;
+  top: 94px;
+  left: 0;
+  background-color: #78dae3;
+  border-radius: 40px;
+}
+
+.index .text-wrapper-4 {
+  position: absolute;
+  width: 125px;
+  top: 8px;
+  left: 27px;
+  font-family: var(--button-font-family);
+  font-weight: var(--button-font-weight);
+  color: #000000;
+  font-size: var(--button-font-size);
+  letter-spacing: var(--button-letter-spacing);
+  line-height: var(--button-line-height);
+  font-style: var(--button-font-style);
+}
+
+.index .overlap-3 {
+  position: absolute;
+  width: 850px;
+  height: 1033px;
+  top: -9px;
+  left: 619px;
+}
+
+.index .rectangle {
+  position: absolute;
+  width: 682px;
+  height: 1033px;
+  top: 0;
+  left: 168px;
+  background-color: #d9d9d9;
+  border-radius: 40px;
+}
+
+.index .img {
+  position: absolute;
+  width: 414px;
+  height: 469px;
+  top: 210px;
+  left: 0;
+  object-fit: cover;
 }
